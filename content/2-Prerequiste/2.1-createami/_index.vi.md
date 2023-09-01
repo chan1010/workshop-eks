@@ -5,39 +5,38 @@ weight : 1
 chapter : false
 pre : " <b>2.1 </b> "
 ---
+## Create Role
 
-### Tạo Role
+1. Access the [IAM service management console](https://us-east-1.console.aws.amazon.com/iamv2/home).
 
-1. Truy cập [giao diện quản trị dịch vụ IAM](https://us-east-1.console.aws.amazon.com/iamv2/home)
-
-- Chọn **Role**.
-- Chọn **Create role**.
+- Select **Role**.
+- Choose **Create role**.
 
 ![IAM](/images/2.prerequisite/001-createiam.png)
 
-2. Tại trang **Create role** mục **Select trusted entity**.
+2. On the **Create role** page, under **Select trusted entity**.
 
-- Tại mục **Trusted entity type** chọn **AWS service**.
-- Tại mục **Use case** chọn **EC2**.
-- Chọn **Next**.
+- Under **Trusted entity type**, select **AWS service**.
+- Under **Use case**, select **EC2**.
+- Choose **Next**.
 
 ![IAM](/images/2.prerequisite/001-createroleadmin.png)
 
-3. Tại mục **Add permissions**.
+3. Under **Add permissions**.
 
-- Chọn **AdministratorAccess**.
-- Chọn **Next**.
+- Select **AdministratorAccess**.
+- Choose **Next**.
 
 ![IAM](/images/2.prerequisite/003-createroleadmin.png)
 
-4. Mục **Name, review and create**.
+4. In the **Name, review, and create** section.
 
-- Tại mục **Role name** nhập **Admin-Role**.
+- Under **Role name**, enter **Admin-Role**.
 
 ![IAM](/images/2.prerequisite/004-createroleadmin.png)
 
-- Kiêm tra **Add permissions**
-- Chọn **Create role**.
+- Review **Add permissions**
+- Choose **Create role**.
 
 ![IAM](/images/2.prerequisite/005-createroleadmin.png)
 

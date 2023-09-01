@@ -1,14 +1,18 @@
 ---
-title : "eks"
-date :  "`r Sys.Date()`" 
-weight : 1 
-chapter : false
+title: "Deploying a Web Application on AWS Elastic Kubernetes Service"
+date: "`r Sys.Date()`"
+weight: 1
+chapter: false
 ---
 
+# Deploying a Web Application on AWS Elastic Kubernetes Service (EKS)
+## Overview
 
-### Nội dung
+In this workshop, we will gain a deeper understanding of deploying a web application on AWS Elastic Kubernetes Service (EKS) and provide knowledge on building infrastructure with Terraform.
 
- 1. [Introduce](1-introduce/)
- 2. [Preparation ](2-Prerequiste/)
- 3. [Create EKS Cluster](3-createekscluster/)
- 4. [Clean](4-cleanup/)
+## Content
+
+1. [Introduction](1-introduce/)
+2. [Prerequisites](2-Prerequisite/)
+3. [Deploying EKS Cluster](3-ekscluster/)
+4. [Resource Cleanup](4-cleanup/)
